@@ -63,6 +63,7 @@ article {
 article h1 {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
+    text-transform: capitalize;
 }
 
 img {
@@ -73,9 +74,26 @@ img {
     margin-right: auto;
 }
 
+.stacklist {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.stacklist li {
+    margin-bottom: 0px;
+}
+
 @media only screen and (max-width: 900px) {
     img {
         max-width: 100%;
+    }
+
+    .stacklist {
+        display: block;
+        margin-top: 25px;
+    }
+    .stacklist li {
+        margin-bottom: 25px;
     }
 }
 
